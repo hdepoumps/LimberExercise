@@ -3,6 +3,7 @@ header{
     height: 100vh;
     top: 0;
     bottom: 0;
+    background-color: white;
 
 }
 a,a:visited{
@@ -46,5 +47,4 @@ nav{
 .menuBouton img{
     left: 30px;
     position: absolute;
-
 }
