@@ -58,12 +58,22 @@
     align-items: center;
     padding-left: 1.5%;
 }
-.campaignModif img{
+.campaignModif .imgModify{
     background-color: #2A7A93;
     padding: 10px 14px;
     border-radius: 10px;
-}
-.campaignModif img:hover{
-    cursor:pointer;
+    height: 17px;
 }
 
+.campaignModif .imgModify:hover{
+    cursor:pointer;
+}
+.campaignModif img:last-child{
+    rotate: 0deg;
+    transition:  rotate 0.5s ease-out 100ms
+}
+
+.campaignModif img:last-child:hover{
+    rotate: 360deg;
+    
+}

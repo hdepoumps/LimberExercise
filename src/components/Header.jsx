@@ -1,13 +1,12 @@
 import { Link } from 'react-router-dom'
 import '../style/header.css'
 import logo from '../img/limber-logo-114.png'
-import { BrowserRouter, Route, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 function Header() {
     const location = useLocation();
     const pathSegments = location.pathname.split('/');
     const lastSegment = pathSegments[pathSegments.length - 1];
-    console.log(lastSegment)
     return (
         <header>
             <div className={"logo"}>

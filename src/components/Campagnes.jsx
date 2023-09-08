@@ -29,9 +29,16 @@ function Campagne(props){
                 <p className={"campaignContact"}>{props.contact}</p>
             </div>
             <div className={"campaignModif"}>
-                <img src={shareIcon} alt={"icone de partage"}/>
-                <img src={modifyIcon} alt={"icone de modification"}/>
-                <img src={settingIcon} alt={"icone de paramètre"}/>
+                <div className={"imgModify"}>
+                    <img src={shareIcon} alt={"icone de partage"}/>
+                </div>
+                <div className={"imgModify"}>
+                    <img src={modifyIcon} alt={"icone de modification"}/>
+                </div>
+                <div className={"imgModify"}>
+                    <img src={settingIcon} alt={"icone de paramètre"}/>
+                </div>
+
             </div>
 
         </div>

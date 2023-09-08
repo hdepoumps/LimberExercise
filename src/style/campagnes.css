@@ -1,10 +1,12 @@
 main {
     position: absolute;
+    max-width: 1100px;
     width: 1100px;
     top: 35px;
-    left: 240px;
+    left: calc(50vw - 550px + 70px);
     margin-left: 50px;
     margin-right: 50px;
+    background-color: initial;
 }
 p{
     margin:0;
@@ -30,16 +32,17 @@ h2{
     justify-content: space-between;
     align-items: center;
     font-size: 22px;
+    position: relative;
 }
-.newCampaign{
-    border-radius: 10px;
-    background-color: #D95E54 ;
-    border: initial;
-    width: 180px;
-    height: 44px;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
+.line{
+    width: 125px;
+    height: 3px;
+    background-color: #2A7A93;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px ;
 }
 
 .gestioncampagne{
@@ -52,6 +55,23 @@ h2{
     font-weight: 600;
     border-right: 2px solid #97979799;
     padding-right: 25px;
+}
+.newCampaign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #D95E54 ;
+    border: initial;
+    width: 180px;
+    height: 44px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition:  font-size 0.2s ease-out 100ms
+}
+.newCampaign:hover{
+    font-size: 18px;
 }
 .recherche{
     display: flex;
@@ -80,6 +100,7 @@ select{
 .recherche button{
     padding: 0;
     height: 44px;
+    width: 45px;
 }
 input{
     height: 44px;
@@ -156,3 +177,12 @@ button:hover{
     color: #979797;
 }
 
+@media screen and (max-width: 1389px) {
+    main {
+        max-width: 1100px;
+        width: 1100px;
+        top: 35px;
+        left: 240px;
+        margin-left: 20px;
+    }
+}

@@ -3,4 +3,5 @@ body{
     background-color: #F7F2EDCC;
     font-family: 'Avenir Next', sans-serif;
     color: #4F4F4F;
+    display: flex;
 }
