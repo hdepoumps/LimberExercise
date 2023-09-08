@@ -31,7 +31,7 @@ h2{
     align-items: center;
     font-size: 22px;
 }
-button{
+.newCampaign{
     border-radius: 10px;
     background-color: #D95E54 ;
     border: initial;
@@ -39,6 +39,7 @@ button{
     height: 44px;
     color: white;
     font-size: 16px;
+    font-weight: 500;
 }
 
 .gestioncampagne{
@@ -76,7 +77,10 @@ select{
     align-items: center;
     width: 435px;
 }
-
+.recherche button{
+    padding: 0;
+    height: 44px;
+}
 input{
     height: 44px;
     background-color: white;
@@ -106,13 +110,49 @@ input{
 }
 
 .legend{
-    width: 80%;
+    width: 82.5%;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 .legend p{
     font-size: 20px;
+    font-weight: 600;
 }
 .legend p:first-child{
     width: 50%;
 }
+
+button{
+    background: none;
+    border: none;
+    width: 28px ;
+}
+button:hover{
+    cursor: pointer;
+}
+.rotateArrow{
+    rotate: 180deg;
+}
+.printPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.changePage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 115px;
+}
+.changePage img{
+    display: flex;
+    align-items: center;
+}
+.changePage p{
+    border: #EBEBEB solid 1px;
+    border-radius: 10px;
+    padding: 8px 10px;
+    color: #979797;
+}
+

@@ -1,0 +1,65 @@
+.card_campaign{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #97979799;
+}
+.campaignName{
+    width: calc(36% );
+}
+.campaignType{
+    display: flex;
+    justify-content: start;
+    padding-top: 8px;
+}
+.campaignType p{
+    padding: 10px;
+    background-color: #D95E54;
+    color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+.campaignNumber{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+.campaignNumber> *{
+    text-align: center;
+    width: 25%;
+}
+.campaignShare{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campaignShare p:last-child{
+    font-size: 14px;
+    color: #91919C;
+    font-weight: 500;
+}
+.campaignModif{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5%;
+}
+.campaignModif img{
+    background-color: #2A7A93;
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+.campaignModif img:hover{
+    cursor:pointer;
+}
+
