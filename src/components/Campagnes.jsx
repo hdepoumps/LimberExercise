@@ -8,9 +8,9 @@ function Campagne(props){
             <div className={"campaignName"}>
                 <p>Fonctionalité {props.nom}</p>
                 <div className={"campaignType"}>
-                    <p>{props.type[0]}</p>
-                    <p>{props.type[1]}</p>
-                    <p>{props.type[2]}</p>
+                    {props.type[0] && <p>{props.type[0]}</p>}
+                    {props.type[1] && <p>{props.type[1]}</p>}
+                    {props.type[2] && <p>{props.type[2]}</p>}
                 </div>
             </div>
             <div className={"campaignNumber"}>

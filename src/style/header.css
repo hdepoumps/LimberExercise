@@ -9,15 +9,15 @@ header{
 a,a:visited{
     text-decoration: none;
     color: black;
-    width: 169px;
-    margin-left: 10px;
+    width: 50px;
     left: 30px ;
 }
 
-
 .logo{
-    margin-left: auto;
-    margin-right: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 65px;
 }
 nav{
     width: 170px;
@@ -27,7 +27,7 @@ nav{
 .menuBouton{
     width: 100%;
     height: 43px;
-    margin: 10px;
+    margin: 15px 10px 10px 10px;
     border: 30px ;
     border-radius: 30px;
     display: flex;
@@ -44,7 +44,13 @@ nav{
     margin-top: 0;
     margin-bottom: 0;
 }
-.menuBouton img{
+.menuBouton svg{
     left: 30px;
     position: absolute;
+}
+.modifyFill:hover path{
+    fill: #2A7A93;
+}
+.modifyStroke:hover path{
+    stroke: #2A7A93;
 }
