@@ -54,3 +54,13 @@ nav{
 .modifyStroke:hover path{
     stroke: #2A7A93;
 }
+.actif{
+    color: #2A7A93 ;
+    background-color: #EEF4F6;
+}
+.actif.modifyFill path{
+    fill: #2A7A93;
+}
+.actif.modifyStroke path{
+    stroke: #2A7A93;
+}
