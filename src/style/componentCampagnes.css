@@ -24,7 +24,11 @@
     color: white;
     margin-right: 10px;
     border-radius: 10px;
-
+}
+.campaignPhoto img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 .campaignNumber{
     display: flex;

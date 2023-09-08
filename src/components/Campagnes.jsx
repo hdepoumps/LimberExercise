@@ -14,9 +14,13 @@ function Campagne(props){
                 </div>
             </div>
             <div className={"campaignNumber"}>
-                <div className={"campaignPhoto"}>
 
+                <div className={"campaignPhoto"}>
+                    {props.image &&
+                        <img src={props.image} alt={"profil de l'utilisateur qui est sur la campagne"}/>
+                    }
                 </div>
+
                 <div className={"campaignShare"}>
                     <p>{props.partage}</p>
                     <p>({props.attente} en attente)</p>

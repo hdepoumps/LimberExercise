@@ -51,6 +51,7 @@ function Campagnes(){
             key={index}
             nom={item.nom}
             type={item.type}
+            image={item.image}
             partage={item.nombre_de_partage}
             attente={item.nombre_de_partage_en_attente}
             clic={item.nombre_de_clic}
